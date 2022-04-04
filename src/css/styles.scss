@@ -1,7 +1,46 @@
 ---
 ---
 
+$primary: #00a9a8;
+$secondary: #eea11f;
+
 html,
 body {
-    font-family: "Open Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: $primary;
+
+    &:hover {
+        color: $primary;
+        text-decoration: underline;
+    }
+}
+
+:root {
+    --jumbotron-padding-y: 3rem;
+}
+
+.jumbotron p:last-child {
+    margin-bottom: 0;
+}
+
+.jumbotron-heading {
+    font-weight: 300;
+}
+
+footer {
+    background: $primary;
+}
+
+.box-shadow {
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+
+.banner_image{
+    background-color: #fff;
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
 }
