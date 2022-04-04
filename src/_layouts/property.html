@@ -1,0 +1,58 @@
+---
+layout: default
+---
+
+<div class="container py-5">
+    <div>
+        <h1 class="jumbotron-heading">{{page.title}}</h1>
+        <p class="lead">
+            {{page.subtitle}}
+        </p>
+    </div>
+    <div class="row">
+        <div class="col-8">
+            {{content}}
+        </div>
+        <div class="col">
+            <div class="card mb-3">
+                <div class="card-header">
+                    Facilites
+                </div>
+                <div class="card-body small">
+                    <ul>
+                        {% for item in page.facilities %}
+                        <li>{{item}}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    Location
+                </div>
+                <div class="card-body small">
+                    <ul>
+                        {% for item in page.location %}
+                        <li>{{item}}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="properties py-5 bg-light">
+    <div class="container">
+        <div class="text-center pb-5">
+            <h3>Other Properties</h3>
+            <h5>
+                We invite you to click on other properties if this is not the right one for you.
+            </h5>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3">
+            {% include properties.html limit=3 %}
+        </div>
+    </div>
+</div>
