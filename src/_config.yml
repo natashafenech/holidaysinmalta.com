@@ -1,0 +1,15 @@
+title: Holidays In Malta - Your holiday accommodation in Malta
+description: Holidays in Malta provide you with a range of villas and apartments in the north of Malta for both short let and long let stays
+keywords: malta holiday,malta letting,letting in malta,holiday accommodation,malta accommodation,malta renting,malta apartment,malta villa,villa in malta,malta long let,malta short let
+url: https://holidaysinmalta.com
+email: margherita.cmv65@gmail.com
+exclude: [".jekyll-cache", ".bundle", ".github", "Gemfile*", ".gitignore", "GitVersion.yml", ".git", "README.md", ".kodiak.toml", ".nojekyll", "LICENSE"]
+include: [".well-known"]
+ver: 0.0.0-local
+livereload: true
+host: 0.0.0.0
+permalink: pretty
+gtm-id: UA-39365354-1
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
