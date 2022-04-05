@@ -1,0 +1,39 @@
+name: Build
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2.3.4
+      with:
+       fetch-depth: 0
+       
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 3.0
+        bundler-cache: true
+        
+    - name: Install GitVersion
+      uses: gittools/actions/gitversion/setup@v0.9.10
+      with:
+        versionSpec: '5.x'
+
+    - name: Use GitVersion
+      id: gitversion # step id used as reference for output values
+      uses: gittools/actions/gitversion/execute@v0.9.10
+
+    - name: 'Build Site'
+      run: bundle exec jekyll build
+      working-directory: ./src
+
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: holidaysinmalta.com_${{ steps.gitversion.outputs.semVer }}
+        path: ./src/_site
