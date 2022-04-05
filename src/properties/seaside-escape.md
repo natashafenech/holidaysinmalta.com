@@ -23,6 +23,44 @@ location:
 - A Car rental is recommended
 - 2 mins walk to the seashore, take the nearby steps
 - 5 mins drive to the sandy beach Mellieha Bay and other beaches in the vicinity
+
+images:
+- melliehavilla (1).JPG
+- melliehavilla (2).JPG
+- melliehavilla (3).JPG
+- melliehavilla (4).JPG
+- melliehavilla (5).JPG
+- melliehavilla (6).JPG
+- melliehavilla (7).JPG
+- melliehavilla (8).JPG
+- melliehavilla (9).JPG
+- melliehavilla (10).JPG
+- melliehavilla (11).JPG
+- melliehavilla (12).JPG
+- melliehavilla (13).JPG
+- melliehavilla (14).JPG
+- melliehavilla (15).JPG
+- melliehavilla (16).JPG
+- melliehavilla (17).JPG
+- melliehavilla (18).JPG
+- melliehavilla (19).JPG
+- melliehavilla (20).JPG
+- melliehavilla (21).JPG
+- melliehavilla (22).JPG
+- melliehavilla (23).JPG
+- melliehavilla (24).JPG
+- melliehavilla (25).JPG
+- melliehavilla (26).JPG
+- melliehavilla (27).JPG
+- melliehavilla (28).JPG
+- melliehavilla (29).JPG
+- melliehavilla (30).JPG
+- melliehavilla (31).JPG
+- melliehavilla (32).JPG
+- melliehavilla (33).JPG
+- melliehavilla (34).JPG
+- melliehavilla (35).JPG
+
 ---
 
 We invite you to our beautiful and most comfortable villa.

@@ -41,6 +41,11 @@ units:
         description: 2 Bedroom Apartment
         images:
 
+images:
+- DSC_0658.JPG
+- DSC_0672.JPG
+- DSC_0664.JPG
+- DSC_0682.JPG
 ---
 
 A choice of 6 apartments sharing the rooftop swimming pool and having the lift facility to all the floors including the roof.

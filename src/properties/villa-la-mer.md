@@ -26,6 +26,18 @@ units:
     -   name: Apartment 2
         description: This apartment comprises of 4 bedrooms of which one with the ensuite shower, another full bathroom with bath, separate shower enclosure,wash hand basin and WC and another shower room with wash hand basin and WC, and also the washing machine.A large and spacious living - dining and kitchen area with a large patio door and a bay window opening to the spacious pool deck.
         images:
+
+images:
+- DSC_6047.JPG
+- DSC_6012.JPG
+- DSC_6013.JPG
+- DSC_6035.JPG
+- DSC_6041.JPG
+- DSC_6043.JPG
+- DSC_6294.jpg
+- DSC_6039.JPG
+- DSC_6044.JPG
+
 ---
 
 The Villa La Mer Apartments are located in the village of Mellieha and enjoy the best view on the Island, Mellieha Bay, Gozo and Comino.They are located on the edge of a hill which is called The Mellieha Heights.

@@ -24,6 +24,27 @@ location:
 - Less then 10 minutes walk to the nearest shops and close to the village centre.
 - 5 minutes drive or bus journey to Mellieha Bay beach
 - Within convenient reach of all the villages shops, bars, bistros and restaurants.
+
+images:
+- Photo  (19).jpg
+- Photo  (21).jpg
+- PictureVilla Lyss Pictures 011.jpg
+- PictureVilla Lyss Pictures 029.jpg
+- Photo  (3)_2.jpg
+- Photo  (10).jpg
+- Photo  (8).jpg
+- Photo  (13).jpg
+- Photo  (17).jpg
+- Photo  (29).jpg
+- Photo  (49).jpg
+- Photo  (50).jpg
+- Photo  (55).jpg
+- Copy of New lyss apartments 040.jpg
+- PictureVilla Lyss Pictures 013.jpg
+- PictureVilla Lyss Pictures 015.jpg
+- PictureVilla Lyss Pictures 016.jpg
+- Photo  (20).jpg
+
 ---
 
 Villa Di Lyss is locted in the tranquil and peaceful location in the village of Mellieha found in the northern part of Malta.

@@ -35,6 +35,19 @@ units:
     -   name: Unit 3
         description: 3 Bedroom Apartment
         images:
+
+images:
+- margarita_20200504 (1).JPG
+- margarita_20200504 (2).JPG
+- margarita_20200504 (6).JPG
+- margarita_20200504 (7).JPG
+- DSC_8151.JPG
+- DSC_8155.JPG
+- DSC_2304.JPG
+- DSC_8158.JPG
+- margarita_20200504 (3).JPG
+- margarita_20200504 (4).JPG
+
 ---
 Set on elevated grounds Margherita Villa Apartments enjoy superb panoramic views of Mellieha Bay and Santa Maria Estate valley. The property comprises of 3 spacious and recently decorated self-catering apartments, which share a good size swimming pool complimented with sun deck area together with umbrellas and sun loungers and a delightful BBQ area where shower and toilet facilities are also available.
 

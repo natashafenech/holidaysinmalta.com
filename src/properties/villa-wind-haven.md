@@ -19,6 +19,21 @@ location:
 - 2 mins walk to the nearest minimarket
 - 5 mins walk to the bus stop, bars and restaurants and more shops
 - 5 mins drive or the bus journey to the sandy beach of Mellieha Bay and other close sandy beaches
+
+images:
+- DSC_4070.jpg
+- DSC_4072.jpg
+- DSC_4068.jpg
+- DSC_6796.JPG
+- DSC_6799.JPG
+- DSC_6633.JPG
+- DSC_6638.JPG
+- DSC_6640a.jpg
+- DSC_6645.JPG
+- DSC_6653a.jpg
+- DSC_6654.JPG
+- DSC_6657.JPG
+
 ---
 
 The Villa Wind Haven is located in a privileged position as it enjoys magnificent views of Mellieha Bay, Gozo and Comino.

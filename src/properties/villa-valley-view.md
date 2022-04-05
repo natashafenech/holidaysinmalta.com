@@ -19,6 +19,21 @@ facilities:
 location:
 - Situated in the coastal village of Mellieha
 
+images:
+- DSC_1026_2.JPG
+- DSC_1029_2.JPG
+- DSC_1020_2.JPG
+- DSC_1014_2.JPG
+- DSC_1035_2.JPG
+- DSC_0065.JPG
+- DSC_0002.JPG
+- DSC_0005.JPG
+- DSC_0013.JPG
+- DSC_0021.JPG
+- DSC_0025.JPG
+- DSC_0055.JPG
+- DSC_1004 (2).JPG
+- DSC_1012.JPG
 ---
 
 This villa is located in a peaceful and tranquil location called 'The Santa Maria Estate'.

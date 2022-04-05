@@ -22,6 +22,27 @@ location:
 - 2 mins walk to the Seashore with a pebbly Beach
 - 20 – 25 mins walk to the Restaurants
 - A Car is recommended
+
+images:
+- seafrontvilla (6).JPG
+- seafrontvilla (7).JPG
+- seafrontvilla (5).JPG
+- seafrontvilla (1).JPG
+- seafrontvilla (2).JPG
+- seafrontvilla (3).JPG
+- seafrontvilla (8).JPG
+- seafrontvilla (9).JPG
+- seafrontvilla (10).JPG
+- seafrontvilla (11).JPG
+- seafrontvilla (12).JPG
+- seafrontvilla (13).JPG
+- seafrontvilla (14).JPG
+- seafrontvilla (15).JPG
+- seafrontvilla (16).JPG
+- seafrontvilla (17).JPG
+- seafrontvilla (18).JPG
+- seafrontvilla (4).JPG
+
 ---
 
 Located exactly on the Seafront, this magnificent villa offers a memorable holiday experience with family or friends.
