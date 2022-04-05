@@ -10,35 +10,34 @@ layout: default
         </p>
     </div>
     <div class="row">
-        <div class="col-8">
-            
+        <div class="col-12 col-md-8">
             <div id="carouselExampleIndicators" class="carousel slide pb-3" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     {% for item in page.images %}
-                    {% if forloop.index0 == 0 %}
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="{{forloop.index0}}"
+                    {% assign imgIndex = forloop.index0 %}
+                    {% if imgIndex == 0 %}
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="{{imgIndex}}"
                         class="active"></button>
                     {% else %}
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="{{forloop.index0}}"
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="{{imgIndex}}"
                         class=""></button>
                     {% endif %}
                     {% endfor %}
                 </div>
-        
                 <div class="carousel-inner">
                     {% for item in page.images %}
-                    {% if forloop.index0 == 0 %}
+                    {% assign imgIndex = forloop.index0 %}
+                    {% if imgIndex == 0 %}
                     <div class="carousel-item active">
-                        <div class="banner_image" style="background-image: url('{{item}}');"></div>
+                        <div class="banner_image large" style="background-image: url('{{item}}');"></div>
                     </div>
                     {% else %}
                     <div class="carousel-item">
-                        <div class="banner_image" style="background-image: url('{{item}}');"></div>
+                        <div class="banner_image large" style="background-image: url('{{item}}');"></div>
                     </div>
                     {% endif %}
                     {% endfor %}
                 </div>
-        
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -50,20 +49,65 @@ layout: default
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-        
-
-
             <div class="pb-3">
                 {{content}}
             </div>
             {% for unit in page.units %}
-            <div class="pb-3">
-                <h3>{{unit.name}}</h3>
-                <p>{{unit.description}}</p>
+            {% assign unitIndex = forloop.index0 %}
+
+            <div class="card mb-5">
+                <div class="card-header">
+                    {{unit.name}}
+                </div>
+                <div class="card-body">
+
+                    <p>{{unit.description}}</p>
+
+                    <div id="carouselExampleIndicators{{unitIndex}}" class="carousel slide"
+                        data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            {% for item in unit.images %}
+                            {% assign imgIndex = forloop.index0 %}
+                            {% if imgIndex == 0 %}
+                            <button type="button" data-bs-target="#carouselExampleIndicators{{unitIndex}}"
+                                data-bs-slide-to="{{imgIndex}}" class="active"></button>
+                            {% else %}
+                            <button type="button" data-bs-target="#carouselExampleIndicators{{unitIndex}}"
+                                data-bs-slide-to="{{imgIndex}}" class=""></button>
+                            {% endif %}
+                            {% endfor %}
+                        </div>
+                        <div class="carousel-inner">
+                            {% for item in unit.images %}
+                            {% assign imgIndex = forloop.index0 %}
+                            {% if imgIndex == 0 %}
+                            <div class="carousel-item active">
+                                <div class="banner_image" style="background-image: url('{{item}}');"></div>
+                            </div>
+                            {% else %}
+                            <div class="carousel-item">
+                                <div class="banner_image" style="background-image: url('{{item}}');"></div>
+                            </div>
+                            {% endif %}
+                            {% endfor %}
+                        </div>
+                        <button class="carousel-control-prev" type="button"
+                            data-bs-target="#carouselExampleIndicators{{unitIndex}}" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button"
+                            data-bs-target="#carouselExampleIndicators{{unitIndex}}" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
             </div>
             {% endfor %}
         </div>
-        <div class="col">
+
+        <div class="col-12 col-md-4">
             <div class="card mb-3">
                 <div class="card-header">
                     Facilites

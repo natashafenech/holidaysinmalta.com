@@ -27,24 +27,24 @@ location:
 - A Car is recommended
 
 images:
-- seafrontvilla (6).JPG
-- seafrontvilla (7).JPG
-- seafrontvilla (5).JPG
-- seafrontvilla (1).JPG
-- seafrontvilla (2).JPG
-- seafrontvilla (3).JPG
-- seafrontvilla (8).JPG
-- seafrontvilla (9).JPG
-- seafrontvilla (10).JPG
-- seafrontvilla (11).JPG
-- seafrontvilla (12).JPG
-- seafrontvilla (13).JPG
-- seafrontvilla (14).JPG
-- seafrontvilla (15).JPG
-- seafrontvilla (16).JPG
-- seafrontvilla (17).JPG
-- seafrontvilla (18).JPG
-- seafrontvilla (4).JPG
+- /images/properties/seafront-villa/seafrontvilla (6).JPG
+- /images/properties/seafront-villa/seafrontvilla (7).JPG
+- /images/properties/seafront-villa/seafrontvilla (5).JPG
+- /images/properties/seafront-villa/seafrontvilla (1).JPG
+- /images/properties/seafront-villa/seafrontvilla (2).JPG
+- /images/properties/seafront-villa/seafrontvilla (3).JPG
+- /images/properties/seafront-villa/seafrontvilla (8).JPG
+- /images/properties/seafront-villa/seafrontvilla (9).JPG
+- /images/properties/seafront-villa/seafrontvilla (10).JPG
+- /images/properties/seafront-villa/seafrontvilla (11).JPG
+- /images/properties/seafront-villa/seafrontvilla (12).JPG
+- /images/properties/seafront-villa/seafrontvilla (13).JPG
+- /images/properties/seafront-villa/seafrontvilla (14).JPG
+- /images/properties/seafront-villa/seafrontvilla (15).JPG
+- /images/properties/seafront-villa/seafrontvilla (16).JPG
+- /images/properties/seafront-villa/seafrontvilla (17).JPG
+- /images/properties/seafront-villa/seafrontvilla (18).JPG
+- /images/properties/seafront-villa/seafrontvilla (4).JPG
 
 ---
 

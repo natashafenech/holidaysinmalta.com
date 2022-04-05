@@ -29,24 +29,24 @@ location:
 - Within convenient reach of all the villages shops, bars, bistros and restaurants.
 
 images:
-- Photo  (19).jpg
-- Photo  (21).jpg
-- PictureVilla Lyss Pictures 011.jpg
-- PictureVilla Lyss Pictures 029.jpg
-- Photo  (3)_2.jpg
-- Photo  (10).jpg
-- Photo  (8).jpg
-- Photo  (13).jpg
-- Photo  (17).jpg
-- Photo  (29).jpg
-- Photo  (49).jpg
-- Photo  (50).jpg
-- Photo  (55).jpg
-- Copy of New lyss apartments 040.jpg
-- PictureVilla Lyss Pictures 013.jpg
-- PictureVilla Lyss Pictures 015.jpg
-- PictureVilla Lyss Pictures 016.jpg
-- Photo  (20).jpg
+- /images/properties/villa-di-lyss/dilyss (1).jpg
+- /images/properties/villa-di-lyss/dilyss (2).jpg
+- /images/properties/villa-di-lyss/dilyss (3).jpg
+- /images/properties/villa-di-lyss/dilyss (4).jpg
+- /images/properties/villa-di-lyss/dilyss (5).jpg
+- /images/properties/villa-di-lyss/dilyss (6).jpg
+- /images/properties/villa-di-lyss/dilyss (7).jpg
+- /images/properties/villa-di-lyss/dilyss (8).jpg
+- /images/properties/villa-di-lyss/dilyss (9).jpg
+- /images/properties/villa-di-lyss/dilyss (10).jpg
+- /images/properties/villa-di-lyss/dilyss (11).jpg
+- /images/properties/villa-di-lyss/dilyss (12).jpg
+- /images/properties/villa-di-lyss/dilyss (13).jpg
+- /images/properties/villa-di-lyss/dilyss (14).jpg
+- /images/properties/villa-di-lyss/dilyss (15).jpg
+- /images/properties/villa-di-lyss/dilyss (16).jpg
+- /images/properties/villa-di-lyss/dilyss (17).jpg
+- /images/properties/villa-di-lyss/dilyss (18).jpg
 
 ---
 

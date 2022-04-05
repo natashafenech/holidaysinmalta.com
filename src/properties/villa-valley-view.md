@@ -23,20 +23,21 @@ location:
 - Situated in the coastal village of Mellieha
 
 images:
-- DSC_1026_2.JPG
-- DSC_1029_2.JPG
-- DSC_1020_2.JPG
-- DSC_1014_2.JPG
-- DSC_1035_2.JPG
-- DSC_0065.JPG
-- DSC_0002.JPG
-- DSC_0005.JPG
-- DSC_0013.JPG
-- DSC_0021.JPG
-- DSC_0025.JPG
-- DSC_0055.JPG
-- DSC_1004 (2).JPG
-- DSC_1012.JPG
+- /images/properties/villa-valley-view/valleyview (1).JPG
+- /images/properties/villa-valley-view/valleyview (2).JPG
+- /images/properties/villa-valley-view/valleyview (3).JPG
+- /images/properties/villa-valley-view/valleyview (4).JPG
+- /images/properties/villa-valley-view/valleyview (5).JPG
+- /images/properties/villa-valley-view/valleyview (6).JPG
+- /images/properties/villa-valley-view/valleyview (7).JPG
+- /images/properties/villa-valley-view/valleyview (8).JPG
+- /images/properties/villa-valley-view/valleyview (9).JPG
+- /images/properties/villa-valley-view/valleyview (10).JPG
+- /images/properties/villa-valley-view/valleyview (11).JPG
+- /images/properties/villa-valley-view/valleyview (12).JPG
+- /images/properties/villa-valley-view/valleyview (13).JPG
+- /images/properties/villa-valley-view/valleyview (14).JPG
+
 ---
 
 This villa is located in a peaceful and tranquil location called 'The Santa Maria Estate'.

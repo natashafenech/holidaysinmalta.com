@@ -24,18 +24,18 @@ location:
 - 5 mins drive or the bus journey to the sandy beach of Mellieha Bay and other close sandy beaches
 
 images:
-- DSC_4070.jpg
-- DSC_4072.jpg
-- DSC_4068.jpg
-- DSC_6796.JPG
-- DSC_6799.JPG
-- DSC_6633.JPG
-- DSC_6638.JPG
-- DSC_6640a.jpg
-- DSC_6645.JPG
-- DSC_6653a.jpg
-- DSC_6654.JPG
-- DSC_6657.JPG
+- /images/properties/villa-wind-haven/windhaven (1).jpg
+- /images/properties/villa-wind-haven/windhaven (2).jpg
+- /images/properties/villa-wind-haven/windhaven (3).jpg
+- /images/properties/villa-wind-haven/windhaven (4).jpg
+- /images/properties/villa-wind-haven/windhaven (5).jpg
+- /images/properties/villa-wind-haven/windhaven (6).jpg
+- /images/properties/villa-wind-haven/windhaven (7).jpg
+- /images/properties/villa-wind-haven/windhaven (8).jpg
+- /images/properties/villa-wind-haven/windhaven (9).jpg
+- /images/properties/villa-wind-haven/windhaven (10).jpg
+- /images/properties/villa-wind-haven/windhaven (11).jpg
+- /images/properties/villa-wind-haven/windhaven (12).jpg
 
 ---
 

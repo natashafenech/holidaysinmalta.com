@@ -3,13 +3,25 @@
 
 $primary: #00a9a8;
 $secondary: #eea11f;
+// $info: #4E4EF2;
+// $success: #41f284;
+// $warning: #f2d035;
+// $danger: #f26d66;
+// $light: #F2F2F2;
+// $dark: #23272A;
+
+@import "bootstrap/bootstrap";
+
+$primary: #00a9a8;
+$secondary: #eea11f;
 
 html,
 body {
 }
 
-
-.btn:focus, button, button:focus {
+.btn:focus,
+button,
+button:focus {
     box-shadow: none !important;
     outline: none !important;
 }
@@ -25,16 +37,23 @@ h6 {
 
 a {
     text-decoration: none;
-    color: $primary;
+
 
     &:hover {
-        color: $primary;
         text-decoration: underline;
     }
 }
 
 :root {
     --jumbotron-padding-y: 3rem;
+}
+
+.property-image {
+    height: 225px;
+    width: 100%;
+    display: block;
+    background-size: cover;
+    background-position: center center;
 }
 
 .jumbotron p:last-child {
@@ -58,6 +77,10 @@ footer {
     background-size: cover;
     background-position: center center;
     height: 300px;
+
+    &.large {
+        height: 450px;
+    }
 }
 
 .properties a {
@@ -71,8 +94,6 @@ footer {
     color: #000;
 }
 
-
-header img
-{
-    max-width:100%
+header img {
+    max-width: 100%;
 }

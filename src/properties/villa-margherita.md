@@ -32,24 +32,48 @@ units:
     -   name: Unit 1
         description: 2 Bedroom Apartment
         images:
+         - /images/properties/villa-margherita/unit1/DSC_0257_2.JPG
+         - /images/properties/villa-margherita/unit1/DSC_0255_2.JPG
+         - /images/properties/villa-margherita/unit1/DSC_0266_2.JPG
+         - /images/properties/villa-margherita/unit1/DSC_0084_2.JPG
+         - /images/properties/villa-margherita/unit1/DSC_0261_2.JPG
+         - /images/properties/villa-margherita/unit1/DSC_0262_2.JPG
     -   name: Unit 2
         description: 3 Bedroom Apartment
         images:
+         - /images/properties/villa-margherita/unit2/DSC_0222.JPG
+         - /images/properties/villa-margherita/unit2/DSC_0328.JPG
+         - /images/properties/villa-margherita/unit2/DSC_0203.JPG
+         - /images/properties/villa-margherita/unit2/DSC_0209.JPG
+         - /images/properties/villa-margherita/unit2/DSC_0213.JPG
+         - /images/properties/villa-margherita/unit2/DSC_0219.JPG
+         - /images/properties/villa-margherita/unit2/DSC_0268.JPG
+         - /images/properties/villa-margherita/unit2/DSC_0272.JPG
+         - /images/properties/villa-margherita/unit2/DSC_0276.JPG
     -   name: Unit 3
         description: 3 Bedroom Apartment
         images:
+         - /images/properties/villa-margherita/unit3/DSC_0215 (2).JPG
+         - /images/properties/villa-margherita/unit3/DSC_0207 (2).JPG
+         - /images/properties/villa-margherita/unit3/DSC_0191.JPG
+         - /images/properties/villa-margherita/unit3/DSC_0200 (2).JPG
+         - /images/properties/villa-margherita/unit3/DSC_0175.JPG
+         - /images/properties/villa-margherita/unit3/DSC_0189.JPG
+         - /images/properties/villa-margherita/unit3/DSC_0165.JPG
+         - /images/properties/villa-margherita/unit3/DSC_0168.JPG
+         - /images/properties/villa-margherita/unit3/DSC_0180.JPG
 
 images:
-- /images/properties/villa-margherita/margarita_20200504 (1)-min.JPG
-- /images/properties/villa-margherita/margarita_20200504 (2)-min.JPG
-- /images/properties/villa-margherita/margarita_20200504 (6)-min.JPG
-- /images/properties/villa-margherita/margarita_20200504 (7)-min.JPG
-- /images/properties/villa-margherita/DSC_8151-min.JPG
-- /images/properties/villa-margherita/DSC_8155-min.JPG
-- /images/properties/villa-margherita/DSC_2304-min.JPG
-- /images/properties/villa-margherita/DSC_8158-min.JPG
-- /images/properties/villa-margherita/margarita_20200504 (3)-min.JPG
-- /images/properties/villa-margherita/margarita_20200504 (4)-min.JPG
+- /images/properties/villa-margherita/margerita (1).jpg
+- /images/properties/villa-margherita/margerita (2).jpg
+- /images/properties/villa-margherita/margerita (3).jpg
+- /images/properties/villa-margherita/margerita (4).jpg
+- /images/properties/villa-margherita/margerita (5).jpg
+- /images/properties/villa-margherita/margerita (6).jpg
+- /images/properties/villa-margherita/margerita (7).jpg
+- /images/properties/villa-margherita/margerita (8).jpg
+- /images/properties/villa-margherita/margerita (9).jpg
+- /images/properties/villa-margherita/margerita (10).jpg
 
 ---
 Set on elevated grounds Margherita Villa Apartments enjoy superb panoramic views of Mellieha Bay and Santa Maria Estate valley. The property comprises of 3 spacious and recently decorated self-catering apartments, which share a good size swimming pool complimented with sun deck area together with umbrellas and sun loungers and a delightful BBQ area where shower and toilet facilities are also available.
