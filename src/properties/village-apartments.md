@@ -20,6 +20,27 @@ location:
 - Situated in the heart of the coastal village resort of Mellieha
 - Surrounded by local shops,internet cafes, restaurants etc….
 - 5 mins journey by bus or the hired car to the sandy beach or a 25min walk.
+
+units:
+    -   name: Apartment 1
+        description: 2 Bedroom Apartment
+        images:
+    -   name: Apartment 2
+        description: 2 Bedroom Apartment
+        images:
+    -   name: Apartment 3
+        description: 3 Bedroom Apartment
+        images:
+    -   name: Apartment 4
+        description: 2 Bedroom Apartment
+        images:
+    -   name: Apartment 5
+        description: 2 Bedroom Apartment
+        images:
+    -   name: Apartment 6
+        description: 2 Bedroom Apartment
+        images:
+
 ---
 
 A choice of 6 apartments sharing the rooftop swimming pool and having the lift facility to all the floors including the roof.

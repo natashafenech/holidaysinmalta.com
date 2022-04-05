@@ -25,6 +25,17 @@ location:
 - Within 5 to 8 mins walk to the centre of the village
 - 5 mins drive or the bus journey to Mellieha Beach
 - Located in the privileged spot, enjoying, one of the best views on the island
+
+units:
+    -   name: Apartment 1
+        description:
+        images:
+    -   name: Apartment 2
+        description:
+        images:
+    -   name: Apartment 3
+        description:
+        images:
 ---
 
 Enjoying magnificent views this villa has 3 apartments that share the pool.

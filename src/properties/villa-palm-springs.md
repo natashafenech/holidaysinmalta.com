@@ -20,6 +20,17 @@ location:
 - 3 mins walk to the local supermarket, bus stop and nearest restaurant
 - 5 mins walk to the village centre, restaurants, banks and local shops
 - 5 mins journey by bus or the hired car to the sandy beach of Mellieha Bay
+
+units:
+    -   name: Unit 1
+        description:
+        images:
+    -   name: Unit 2
+        description:
+        images:
+    -   name: Unit 3
+        description:
+        images:
 ---
 
 This modern & luxurious property is situated in the quiet village of Mellieha and enjoys the tranquillity of the area, thus is only a few minutes walk to the local amenities of the village, such as supermarkets, bus stop, bars & restaurants, coffee shops, banks etc.

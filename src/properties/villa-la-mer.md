@@ -17,7 +17,15 @@ location:
 - Situated in the popular coastal village of Mellieha
 - Within 5 mins walk to the centre of the village with bars and restaurants, souvenir shops, bus stop etc.
 - 2 mins walk to the nearest minimarket
-- 5 mins drive to the sandy beach Mellieha Bay and other beaches in the vici
+- 5 mins drive to the sandy beach Mellieha Bay and other beaches in the vicinity
+
+units:
+    -   name: Apartment 1
+        description: This apartment, comprises of 3 bedrooms, an ensuite full bathroom with bath and a separate shower enclosure, wash hand basin and WC, another separate shower room with shower enclosure, spare toilet with wash hand basin, spacious open plan living - dining area and the fully equipped kitchen. The living area leads to a spacious terrace with views where one can find outside table and chairs and also sunbeds for  dining and relaxing alfresco.
+        images:
+    -   name: Apartment 2
+        description: This apartment comprises of 4 bedrooms of which one with the ensuite shower, another full bathroom with bath, separate shower enclosure,wash hand basin and WC and another shower room with wash hand basin and WC, and also the washing machine.A large and spacious living - dining and kitchen area with a large patio door and a bay window opening to the spacious pool deck.
+        images:
 ---
 
 The Villa La Mer Apartments are located in the village of Mellieha and enjoy the best view on the Island, Mellieha Bay, Gozo and Comino.They are located on the edge of a hill which is called The Mellieha Heights.

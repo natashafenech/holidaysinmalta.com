@@ -11,7 +11,15 @@ layout: default
     </div>
     <div class="row">
         <div class="col-8">
-            {{content}}
+            <div class="pb-3">
+                {{content}}
+            </div>
+            {% for unit in page.units %}
+            <div class="pb-3">
+                <h3>{{unit.name}}</h3>
+                <p>{{unit.description}}</p>
+            </div>
+            {% endfor %}
         </div>
         <div class="col">
             <div class="card mb-3">

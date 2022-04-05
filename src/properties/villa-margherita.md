@@ -24,6 +24,17 @@ location:
 - 3 mins walk to the local supermarket, bus stop and nearest restaurant
 - 5 mins walk to the village centre – restaurants – banks – local shops 
 - 5 mins journey by bus or the hired car to the sandy beach – Mellieha Bay
+
+units:
+    -   name: Unit 1
+        description: 2 Bedroom Apartment
+        images:
+    -   name: Unit 2
+        description: 3 Bedroom Apartment
+        images:
+    -   name: Unit 3
+        description: 3 Bedroom Apartment
+        images:
 ---
 Set on elevated grounds Margherita Villa Apartments enjoy superb panoramic views of Mellieha Bay and Santa Maria Estate valley. The property comprises of 3 spacious and recently decorated self-catering apartments, which share a good size swimming pool complimented with sun deck area together with umbrellas and sun loungers and a delightful BBQ area where shower and toilet facilities are also available.
 
