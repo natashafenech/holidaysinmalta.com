@@ -17,7 +17,7 @@ facilities:
 - Washing Machine
 - Sunbeds and Parasoles
 - Garden Furniture
-- B- BQ
+- BBQ
 
 location:
 - Situated in the coastal village resort of Mellieha
@@ -39,4 +39,4 @@ The third apartment which is the smallest of the three apartments have the bathr
 
 All these 3 apartments share the swimming pool and pool deck that enjoys magnificent views, complimented with sunbeds,parasoles and also table and chairs for alfresco dining.
 
-Located in a privileged spot, this property is also within convenient reach to the shops, bus stop, bars and restaurants etc……
+Located in a privileged spot, this property is also within convenient reach to the shops, bus stop, bars and restaurants etc...
