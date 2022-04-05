@@ -8,6 +8,12 @@ html,
 body {
 }
 
+
+.btn:focus, button, button:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
 h1,
 h2,
 h3,
@@ -63,4 +69,10 @@ footer {
     text-decoration: none;
     opacity: 1;
     color: #000;
+}
+
+
+header img
+{
+    max-width:100%
 }
