@@ -3,6 +3,9 @@ layout: property
 title: Villa Valley View
 order: 5
 
+latitude: 35.957050
+longitude: 14.367472
+
 facilities:
 - Private Swimming Pool
 - Bed Linen and Bath and Hand Towels replenished weekly

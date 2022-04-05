@@ -3,6 +3,9 @@ layout: property
 title: Seaside Escape
 order: 8
 
+latitude: 
+longitude: 
+
 facilities:
 - 5 double bedrooms
 - 4 bathrooms

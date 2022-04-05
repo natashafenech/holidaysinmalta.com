@@ -3,6 +3,9 @@ layout: property
 title: Village Apartments
 order: 4
 
+latitude: 35.956358
+longitude: 14.362397
+
 facilities:
 - Bed Linen and bath and hand towels changed weekly
 - Comunual washing machine

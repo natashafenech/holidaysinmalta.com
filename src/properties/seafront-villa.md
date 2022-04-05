@@ -3,6 +3,9 @@ layout: property
 title: Seafront Villa
 order: 9
 
+latitude: 
+longitude: 
+
 facilities:
 - Outdoor Furniture
 - Parasoles and Sunbeds

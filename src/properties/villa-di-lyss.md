@@ -3,6 +3,9 @@ layout: property
 title: Villa Di Lyss
 order: 3
 
+latitude: 35.959951
+longitude: 14.366102
+
 facilities:
 - Wireless Internet access ( payable locally €20 for the duration of your stay)
 - Self catering kitchen with cooker, fridge/freezer & microwave

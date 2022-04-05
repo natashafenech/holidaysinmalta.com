@@ -3,6 +3,9 @@ layout: property
 title: Villa La Mer
 order: 2
 
+latitude: 35.960215
+longitude: 14.363415
+
 facilities:
 - Linen is supplied and changed weekly
 - Iron and Ironboard
@@ -28,15 +31,15 @@ units:
         images:
 
 images:
-- DSC_6047.JPG
-- DSC_6012.JPG
-- DSC_6013.JPG
-- DSC_6035.JPG
-- DSC_6041.JPG
-- DSC_6043.JPG
-- DSC_6294.jpg
-- DSC_6039.JPG
-- DSC_6044.JPG
+- /images/properties/villa-la-mer/DSC_6047-min.JPG
+- /images/properties/villa-la-mer/DSC_6012-min.JPG
+- /images/properties/villa-la-mer/DSC_6013-min.JPG
+- /images/properties/villa-la-mer/DSC_6035-min.JPG
+- /images/properties/villa-la-mer/DSC_6041-min.JPG
+- /images/properties/villa-la-mer/DSC_6043-min.JPG
+- /images/properties/villa-la-mer/DSC_6294-min.jpg
+- /images/properties/villa-la-mer/DSC_6039-min.JPG
+- /images/properties/villa-la-mer/DSC_6044-min.JPG
 
 ---
 

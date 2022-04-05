@@ -3,6 +3,9 @@ layout: property
 title: Villa Wind Haven
 order: 6
 
+latitude: 
+longitude: 
+
 facilities:
 - Bed Linen and Bath and hand towels replenished weekly
 - Iron and ironingboard

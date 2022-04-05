@@ -3,6 +3,9 @@ layout: property
 title: Villa Margherita
 order: 1
 
+latitude: 35.958073
+longitude: 14.367115
+
 facilities:
 - Swimming Pool
 - 2 sets of outdoor table and chairs around the pool deck
@@ -37,16 +40,16 @@ units:
         images:
 
 images:
-- margarita_20200504 (1).JPG
-- margarita_20200504 (2).JPG
-- margarita_20200504 (6).JPG
-- margarita_20200504 (7).JPG
-- DSC_8151.JPG
-- DSC_8155.JPG
-- DSC_2304.JPG
-- DSC_8158.JPG
-- margarita_20200504 (3).JPG
-- margarita_20200504 (4).JPG
+- /images/properties/villa-margherita/margarita_20200504 (1)-min.JPG
+- /images/properties/villa-margherita/margarita_20200504 (2)-min.JPG
+- /images/properties/villa-margherita/margarita_20200504 (6)-min.JPG
+- /images/properties/villa-margherita/margarita_20200504 (7)-min.JPG
+- /images/properties/villa-margherita/DSC_8151-min.JPG
+- /images/properties/villa-margherita/DSC_8155-min.JPG
+- /images/properties/villa-margherita/DSC_2304-min.JPG
+- /images/properties/villa-margherita/DSC_8158-min.JPG
+- /images/properties/villa-margherita/margarita_20200504 (3)-min.JPG
+- /images/properties/villa-margherita/margarita_20200504 (4)-min.JPG
 
 ---
 Set on elevated grounds Margherita Villa Apartments enjoy superb panoramic views of Mellieha Bay and Santa Maria Estate valley. The property comprises of 3 spacious and recently decorated self-catering apartments, which share a good size swimming pool complimented with sun deck area together with umbrellas and sun loungers and a delightful BBQ area where shower and toilet facilities are also available.

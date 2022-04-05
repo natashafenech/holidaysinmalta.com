@@ -3,6 +3,9 @@ layout: property
 title: Villa Palm Springs
 order: 7
 
+latitude: 
+longitude: 
+
 facilities:
 - Linen and towels are supplied and changed weekly
 - Free WiFi
