@@ -56,12 +56,12 @@ units:
          - /images/properties/villa-palm-springs/unit3/DSC_0476.JPG
 
 images:
-- /images/properties/villa-palm-springs/palmsprings (1).jpg
-- /images/properties/villa-palm-springs/palmsprings (2).jpg
-- /images/properties/villa-palm-springs/palmsprings (3).jpg
-- /images/properties/villa-palm-springs/palmsprings (4).jpg
-- /images/properties/villa-palm-springs/palmsprings (5).jpg
-- /images/properties/villa-palm-springs/palmsprings (6).jpg
+- /images/properties/villa-palm-springs/palmsprings (1).JPG
+- /images/properties/villa-palm-springs/palmsprings (2).JPG
+- /images/properties/villa-palm-springs/palmsprings (3).JPG
+- /images/properties/villa-palm-springs/palmsprings (4).JPG
+- /images/properties/villa-palm-springs/palmsprings (5).JPG
+- /images/properties/villa-palm-springs/palmsprings (6).JPG
 
 ---
 
