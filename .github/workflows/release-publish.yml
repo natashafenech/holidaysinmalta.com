@@ -10,23 +10,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2.3.4
-      with:
-       fetch-depth: 0
        
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: 3.0
         bundler-cache: true
-        
-    - name: Install GitVersion
-      uses: gittools/actions/gitversion/setup@v0.9.10
-      with:
-        versionSpec: '5.x'
-
-    - name: Use GitVersion
-      id: gitversion # step id used as reference for output values
-      uses: gittools/actions/gitversion/execute@v0.9.10
 
     - name: 'Bundle Install'
       run: bundle install
@@ -35,38 +24,10 @@ jobs:
     - name: 'Build Site'
       run: JEKYLL_ENV=production bundle exec jekyll build
       working-directory: ./src
-
-    - name: Upload Artifact
-      uses: actions/upload-artifact@v2
-      with:
-        name: holidaysinmalta.com_${{ steps.gitversion.outputs.semVer }}
-        path: ./src/_site
-    
+  
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3.8.0
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./src/_site
-        cname: holidaysinmalta.com
-
-    - name: Zip Release
-      run: |
-        zip -r site.zip ./src/_site/*
-    - name: Create a Release
-      id: create_release
-      uses: actions/create-release@v1.1.4
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        tag_name: ${{ steps.gitversion.outputs.semVer }}
-        release_name: holidaysinmalta.com ${{ steps.gitversion.outputs.semVer }}
-      
-    - name: Upload a Release Asset
-      uses: actions/upload-release-asset@v1.0.2
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: ./site.zip
-        asset_name: holidaysinmalta.com_${{ steps.gitversion.outputs.semVer }}.zip
-        asset_content_type: application/zip
+        cname: preview.holidaysinmalta.com
