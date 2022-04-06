@@ -28,40 +28,40 @@ units:
     -   name: Unit 1
         description:
         images:
-         - /images/properties/\villa-palm-springs/unit1/DSC_0480.JPG
-         - /images/properties/\villa-palm-springs/unit1/DSC_0493.JPG
-         - /images/properties/\villa-palm-springs/unit1/DSC_0498.JPG
-         - /images/properties/\villa-palm-springs/unit1/DSC_0500.JPG
-         - /images/properties/\villa-palm-springs/unit1/DSC_0508.JPG
+         - /images/properties/villa-palm-springs/unit1/DSC_0480.JPG
+         - /images/properties/villa-palm-springs/unit1/DSC_0493.JPG
+         - /images/properties/villa-palm-springs/unit1/DSC_0498.JPG
+         - /images/properties/villa-palm-springs/unit1/DSC_0500.JPG
+         - /images/properties/villa-palm-springs/unit1/DSC_0508.JPG
     -   name: Unit 2
         description:
         images:
-         - /images/properties/\villa-palm-springs/unit2/DSC_0290.JPG
-         - /images/properties/\villa-palm-springs/unit2/DSC_0295.JPG
-         - /images/properties/\villa-palm-springs/unit2/DSC_0300.JPG
-         - /images/properties/\villa-palm-springs/unit2/DSC_0337.JPG
-         - /images/properties/\villa-palm-springs/unit2/DSC_0346.JPG
-         - /images/properties/\villa-palm-springs/unit2/DSC_0369_3.JPG
-         - /images/properties/\villa-palm-springs/unit2/DSC_0373.JPG
-         - /images/properties/\villa-palm-springs/unit2/DSC_0384.JPG
+         - /images/properties/villa-palm-springs/unit2/DSC_0290.JPG
+         - /images/properties/villa-palm-springs/unit2/DSC_0295.JPG
+         - /images/properties/villa-palm-springs/unit2/DSC_0300.JPG
+         - /images/properties/villa-palm-springs/unit2/DSC_0337.JPG
+         - /images/properties/villa-palm-springs/unit2/DSC_0346.JPG
+         - /images/properties/villa-palm-springs/unit2/DSC_0369_3.JPG
+         - /images/properties/villa-palm-springs/unit2/DSC_0373.JPG
+         - /images/properties/villa-palm-springs/unit2/DSC_0384.JPG
     -   name: Unit 3
         description:
         images:
-         - /images/properties/\villa-palm-springs/unit3/DSC_0413.JPG
-         - /images/properties/\villa-palm-springs/unit3/DSC_0421_3.JPG
-         - /images/properties/\villa-palm-springs/unit3/DSC_0425.JPG
-         - /images/properties/\villa-palm-springs/unit3/DSC_0442.JPG
-         - /images/properties/\villa-palm-springs/unit3/DSC_0468.JPG
-         - /images/properties/\villa-palm-springs/unit3/DSC_0473.JPG
-         - /images/properties/\villa-palm-springs/unit3/DSC_0476.JPG
+         - /images/properties/villa-palm-springs/unit3/DSC_0413.JPG
+         - /images/properties/villa-palm-springs/unit3/DSC_0421_3.JPG
+         - /images/properties/villa-palm-springs/unit3/DSC_0425.JPG
+         - /images/properties/villa-palm-springs/unit3/DSC_0442.JPG
+         - /images/properties/villa-palm-springs/unit3/DSC_0468.JPG
+         - /images/properties/villa-palm-springs/unit3/DSC_0473.JPG
+         - /images/properties/villa-palm-springs/unit3/DSC_0476.JPG
 
 images:
-- /images/properties/\villa-palm-springs/palmsprings (1).jpg
-- /images/properties/\villa-palm-springs/palmsprings (2).jpg
-- /images/properties/\villa-palm-springs/palmsprings (3).jpg
-- /images/properties/\villa-palm-springs/palmsprings (4).jpg
-- /images/properties/\villa-palm-springs/palmsprings (5).jpg
-- /images/properties/\villa-palm-springs/palmsprings (6).jpg
+- /images/properties/villa-palm-springs/palmsprings (1).JPG
+- /images/properties/villa-palm-springs/palmsprings (2).JPG
+- /images/properties/villa-palm-springs/palmsprings (3).JPG
+- /images/properties/villa-palm-springs/palmsprings (4).JPG
+- /images/properties/villa-palm-springs/palmsprings (5).JPG
+- /images/properties/villa-palm-springs/palmsprings (6).JPG
 
 ---
 
