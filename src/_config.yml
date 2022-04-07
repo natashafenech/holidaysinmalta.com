@@ -11,5 +11,4 @@ host: 0.0.0.0
 permalink: pretty
 gtm-id: UA-39365354-1
 plugins:
-  - jekyll-feed
   - jekyll-sitemap

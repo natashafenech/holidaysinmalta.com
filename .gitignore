@@ -46,6 +46,8 @@ Thumbs.db
 *.flv
 *.wmv
 
+desktop.ini
+
 src/_site
 src/.sass-cache
 src/.jekyll-cache
