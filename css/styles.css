@@ -2465,12 +2465,14 @@ footer { background: #00a9a8; }
 
 .banner_image { background-color: #fff; background-size: cover; background-position: center center; height: 300px; }
 
-.banner_image.large { height: 450px; }
-
 .properties a { opacity: 0.9; color: #504f4f; }
 
 .properties a:hover { text-decoration: none; opacity: 1; color: #000; }
 
 header img { max-width: 100%; }
+
+.h400 { height: 400px; width: 100%; }
+
+.h300 { height: 300px; width: 100%; }
 
 /*# sourceMappingURL=styles.css.map */
