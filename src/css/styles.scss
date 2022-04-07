@@ -38,7 +38,6 @@ h6 {
 a {
     text-decoration: none;
 
-
     &:hover {
         text-decoration: underline;
     }
@@ -78,9 +77,6 @@ footer {
     background-position: center center;
     height: 300px;
 
-    &.large {
-        height: 450px;
-    }
 }
 
 .properties a {
@@ -96,4 +92,14 @@ footer {
 
 header img {
     max-width: 100%;
+}
+
+.h400 {
+    height: 400px;
+    width: 100%;
+}
+
+.h300 {
+    height: 300px;
+    width: 100%;
 }

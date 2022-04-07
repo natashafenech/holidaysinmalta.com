@@ -1,0 +1,38 @@
+<div id="carouselExampleIndicators" class="carousel slide border-bottom" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        {% for item in site.data.banner %}
+        {% if forloop.index0 == 0 %}
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="{{forloop.index0}}"
+            class="active"></button>
+        {% else %}
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="{{forloop.index0}}"
+            class=""></button>
+        {% endif %}
+        {% endfor %}
+    </div>
+
+    <div class="carousel-inner">
+        {% for item in site.data.banner %}
+        {% if forloop.index0 == 0 %}
+        <div class="carousel-item active">
+            <div class="banner_image h300" style="background-image: url('{{item.src}}');"></div>
+        </div>
+        {% else %}
+        <div class="carousel-item">
+            <div class="banner_image h300" style="background-image: url('{{item.src}}');"></div>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
