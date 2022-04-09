@@ -16,6 +16,51 @@ subtitle:
             <p>
                 Should you wish to phone us directly, please feel free to do so.
             </p>
+
+            <div>
+                <form>
+                    <h3>
+                        Your Information
+                    </h3>
+                    <div class="mb-3">
+                        <label for="fullname" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="fullname" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="contactNumber" class="form-label">Contact Number</label>
+                        <input type="tel" class="form-control" id="contactNumber" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="country" class="form-label">Country</label>
+                        <input type="text" class="form-control" id="country" required>
+                    </div>
+                    <h3>
+                        Your Stay
+                    </h3>
+                    <div class="mb-3">
+                        <label for="arrivalDate" class="form-label">Arrival Date</label>
+                        <input type="date" class="form-control" id="arrivalDate" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="departureDate" class="form-label">Departure Date</label>
+                        <input type="date" class="form-control" id="departureDate" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="numberOfAdults" class="form-label">Number of Adults</label>
+                        <input type="number" class="form-control" id="numberOfAdults" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="numberOfChildren" class="form-label">Number of Children</label>
+                        <input type="number" class="form-control" id="numberOfChildren" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
         </div>
 
         <div class="col-12 col-md-4">
