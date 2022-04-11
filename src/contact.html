@@ -19,79 +19,110 @@ subtitle:
 
             <div>
                 <form>
-                    <h3>
+                    <h3 class="pt-4">
                         Your Information
                     </h3>
                     <div class="row">
-                        <div class="col">
+                        <div class="col-12 col-md-6">
                             <div class="mb-3">
                                 <label for="fullname" class="form-label">Full Name</label>
-                                <input type="text" class="form-control" id="fullname" required>
+                                <input type="text" class="form-control" id="fullname" name="fullname" required>
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col-12 col-md-6">
                             <div class="mb-3">
                                 <label for="email" class="form-label">Email address</label>
-                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
-                                    required>
+                                <input type="email" class="form-control" id="email" name="email"
+                                    aria-describedby="emailHelp" required>
                             </div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col">
+                        <div class="col-12 col-md-6">
                             <div class="mb-3">
                                 <label for="contactNumber" class="form-label">Contact Number</label>
-                                <input type="tel" class="form-control" id="contactNumber" required>
+                                <input type="tel" class="form-control" id="contactNumber" name="contactNumber" required>
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col-12 col-md-6">
                             <div class="mb-3">
                                 <label for="country" class="form-label">Country</label>
-                                <input type="text" class="form-control" id="country" required>
+                                <input type="text" class="form-control" id="country" name="country" required>
                             </div>
                         </div>
                     </div>
 
-                    <h3>
+                    <h3 class="pt-2">
                         Your Stay
                     </h3>
+
                     <div class="row">
-                        <div class="col">
+                        <div class="col-12 col-md-6">
                             <div class="mb-3">
                                 <label for="arrivalDate" class="form-label">Arrival Date</label>
-                                <input type="date" class="form-control" id="arrivalDate" required>
+                                <input type="date" class="form-control" id="arrivalDate" name="arrivalDate" required>
                             </div>
-                        </div>
-                        <div class="col">
+
                             <div class="mb-3">
                                 <label for="departureDate" class="form-label">Departure Date</label>
-                                <input type="date" class="form-control" id="departureDate" required>
+                                <input type="date" class="form-control" id="departureDate" name="departureDate"
+                                    required>
                             </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
                             <div class="mb-3">
                                 <label for="numberOfAdults" class="form-label">Number of Adults</label>
-                                <input type="number" class="form-control" id="numberOfAdults" value="2" required>
+                                <input type="number" class="form-control" id="numberOfAdults" name="numberOfAdults"
+                                    value="2" required>
                             </div>
-                        </div>
-                        <div class="col">
                             <div class="mb-3">
                                 <label for="numberOfChildren" class="form-label">Number of Children</label>
-                                <input type="number" class="form-control" id="numberOfChildren" value="0" required>
+                                <input type="number" class="form-control" id="numberOfChildren" name="numberOfChildren"
+                                    value="0" required>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="mb-3">
+                                <label for="interestedproperties" class="form-label">Interested Properties</label>
+                                <div class="checkboxlist border rounded p-2">
+
+                                    {% assign sorted_pages = site.pages | sort:"order" | where_exp:"pg","pg.url !=
+                                    page.url and pg.layout == 'property'" %}
+
+                                    <table id="cphBody_cblProperties">
+                                        <tbody>
+
+                                            {% for page in sorted_pages limit:include.limit %}
+                                            <tr>
+                                                <td>
+                                                    <input id="interestedProperty{{forloop.index0}}"
+                                                        name="interestedProperty{{forloop.index0}}" type="checkbox"
+                                                        value="{{page.title}}">
+                                                    <label for="interestedProperty{{forloop.index0}}"
+                                                        class="ms-1">{{page.title}}</label>
+                                                </td>
+                                            </tr>
+                                            {% endfor %}
+
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col">
+                        <div class="col-12">
                             <div class="mb-3">
                                 <label for="comments" class="form-label">Comments</label>
                                 <textarea class="form-control" id="comments" rows="5"></textarea>
                             </div>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="mb-3 text-end">
+                                <button type="submit" class="btn btn-primary text-white col-md-3 col-12">Submit</button>
+                            </div>
+                        </div>
+                    </div>
                 </form>
             </div>
         </div>
