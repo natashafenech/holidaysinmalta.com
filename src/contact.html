@@ -16,6 +16,121 @@ subtitle:
             <p>
                 Should you wish to phone us directly, please feel free to do so.
             </p>
+
+            <div>
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                    <input type="text" name="honeypot" style="display: none;" /> <!-- Optional -->
+                    <input type="hidden" name="accessKey" value="e7b2f976-4162-4c4b-91f0-a5d05015e9ac">
+                    <input type="hidden" name="subject" value="HolidaysInMalta.com - Contact us" />
+                    <input type="hidden" name="replyTo" value="@">
+                    <input type="hidden" name="redirectTo" value="/contact/success/">
+
+                    <h3 class="pt-4">
+                        Your Information
+                    </h3>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Full Name</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="email" name="email"
+                                    aria-describedby="emailHelp" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="mb-3">
+                                <label for="phone" class="form-label">Contact Number</label>
+                                <input type="tel" class="form-control" id="phone" name="phone" required>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="mb-3">
+                                <label for="country" class="form-label">Country</label>
+                                <input type="text" class="form-control" id="country" name="country" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3 class="pt-2">
+                        Your Stay
+                    </h3>
+
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="mb-3">
+                                <label for="arrivalDate" class="form-label">Arrival Date</label>
+                                <input type="date" class="form-control" id="arrivalDate" name="arrivalDate" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="departureDate" class="form-label">Departure Date</label>
+                                <input type="date" class="form-control" id="departureDate" name="departureDate"
+                                    required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="numberOfAdults" class="form-label">Number of Adults</label>
+                                <input type="number" class="form-control" id="numberOfAdults" name="numberOfAdults"
+                                    value="2" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="numberOfChildren" class="form-label">Number of Children</label>
+                                <input type="number" class="form-control" id="numberOfChildren" name="numberOfChildren"
+                                    value="0" required>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="mb-3">
+                                <label for="interestedproperties" class="form-label">Interested Properties</label>
+                                <div class="checkboxlist border rounded p-2">
+
+                                    {% assign sorted_pages = site.pages | sort:"order" | where_exp:"pg","pg.url !=
+                                    page.url and pg.layout == 'property'" %}
+
+                                    <table id="cphBody_cblProperties">
+                                        <tbody>
+
+                                            {% for page in sorted_pages limit:include.limit %}
+                                            <tr>
+                                                <td>
+                                                    <input id="interestedProperty{{forloop.index0}}"
+                                                        name="interestedProperty{{forloop.index0}}" type="checkbox"
+                                                        value="{{page.title}}">
+                                                    <label for="interestedProperty{{forloop.index0}}"
+                                                        class="ms-1">{{page.title}}</label>
+                                                </td>
+                                            </tr>
+                                            {% endfor %}
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Comments</label>
+                                <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="mb-3 text-end">
+                                <button type="submit" class="btn btn-primary text-white col-md-3 col-12">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
 
         <div class="col-12 col-md-4">
