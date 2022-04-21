@@ -412,9 +412,10 @@ subtitle:
         var data = new FormData(event.target);
         fetch(event.target.action, {
             method: form.method,
-            body: data,
+            body: JSON.stringify(data),
             headers: {
-                'Accept': 'application/json'
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
             }
         }).then(response => {
             if (response.ok) {
