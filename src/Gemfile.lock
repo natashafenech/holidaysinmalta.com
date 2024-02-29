@@ -85,7 +85,7 @@ PLATFORMS
 DEPENDENCIES
   eventmachine (= 1.2.7)!
   google-protobuf
-  jekyll (~> 4.3.3)
+  jekyll
   jekyll-sitemap
   tzinfo (~> 2.0)
   tzinfo-data (~> 1.2021)
