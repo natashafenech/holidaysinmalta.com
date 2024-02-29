@@ -14,9 +14,9 @@ jobs:
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 3.3
+        ruby-version: 3.2
         working-directory: ./src
-        bundler-cache: true
+        bundler-cache: false
 
     - name: 'Bundle Install'
       run: bundle install
